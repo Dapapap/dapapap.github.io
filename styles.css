@@ -1,3 +1,25 @@
-h1 {
+:root {
+    --DefaultTextSize: 10px;
+    --DefaultDivHeight: var(--DefaultTextSize) + 5px;
+    --DefaultHeaderFontSize: calc(var(--DefaultTextSize) + 125%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
     color: #0e0af8;
+    font-size: var(--DefaultHeaderFontSize);
+    font-weight: bold;
+    text-align: center;
+}
+div.box {
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    height: var(--DefaultDivHeight);
+    outline: ridge;
+    outline-color: #000000;
+}
+div.box p {
+    height: var(--DefaultDivHeight);
+    margin: 5px 5px;
 }
