@@ -1,7 +1,7 @@
 :root {
     --DefaultTextSize: 10px;
     --DefaultDivHeight: var(--DefaultTextSize) + 5px;
-    --DefaultHeaderFontSize: calc(var(--DefaultTextSize) + 125%);
+    --DefaultHeaderFontSize: calc(var(--DefaultTextSize) * 2.25);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
